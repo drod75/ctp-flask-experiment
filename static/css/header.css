@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+}
+
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bi{
+  color: white;
+  background: url(../imgs/bg.jpg) center;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: chartreuse;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: white;
+  border-radius: 25px;
+  color: red;
+}
+.navbar li {
+  float: left;
+}
